@@ -35,7 +35,7 @@ def write_words():
         write_file('madlib.txt', elem)
 
 # from stackoverflow: https://stackoverflow.com/questions/17140886/how-to-search-and-replace-text-in-a-file
-with fileinput.FileInput('madlib.txt', inplace=True, backup='.bak') as file:
+with fileinput.FileInput('madlib.txt', inplace=True) as file:
     for line in file:
         print(line.replace('Adjective', 'I changed this word'), end='')
 
@@ -55,3 +55,5 @@ def start():
 
 if __name__ == '__main__':
     start()
+
+
