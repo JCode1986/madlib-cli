@@ -1,7 +1,7 @@
 # Madlib CLI
 
 **Author**: Joseph Hangarter
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Version**: 1.0.1 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
 * Print a welcome message to the user, explaining the Madlib process and command line interactions
@@ -12,13 +12,11 @@
 * After the resulting Madlib has been completed, provide the completed response back to the user in the command line.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-
-## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. This is also an area which you can include any visuals; flow charts, example usage gifs, screen captures, etc.-->
+* Set up a virtual env
 
 ## API
-<!-- Provide detailed instructions for your applications usage. This should include any methods or endpoints available to the user/client/developer. Each section should be formatted to provide clear syntax for usage, example calls including input data requirements and options, and example responses or return values. -->
+N/A
 
 ## Change Log
 * 12/04/2019 3:18pm - Initial commit
+* 12/04/2019 9:22pm - created get name function and get words to store users' inputs
