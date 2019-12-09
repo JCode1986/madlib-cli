@@ -13,7 +13,6 @@ def get_name():
 user_input = []
 
 def prompts(string):
-    get_name()
     word_type = []
     word_type += re.findall(r"(?<={)[\w<>' -]+(?=})", string)
     for word in word_type:
@@ -30,6 +29,7 @@ def write_file_results(string, path, contents):
     f.write(string)
 
 def start():
+    get_name()
     str_from_template = get_template_text('template.txt')
     prompts(str_from_template)
     final_string = new_string(user_input, str_from_template)
