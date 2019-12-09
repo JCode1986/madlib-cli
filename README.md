@@ -1,7 +1,7 @@
 # Madlib CLI
 
 **Author**: Joseph Hangarter
-**Version**: 1.0.1 (increment the patch/fix version number up if you make more commits past your first submission)
+**Version**: 1.0.3
 
 ## Overview
 * Print a welcome message to the user, explaining the Madlib process and command line interactions
@@ -20,3 +20,5 @@ N/A
 ## Change Log
 * 12/04/2019 3:18pm - Initial commit
 * 12/04/2019 9:22pm - created get name function and get words to store users' inputs
+* 12/08/2019 8:56pm - Refactored code, all functionalities working, removed imported `file input`
+* 12/08/2019 9:30pm - Added some testing
